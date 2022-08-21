@@ -1,0 +1,72 @@
+:root {
+  --brand-color-left: #2196f3;
+  --brand-color-right: #000000;
+  --brand-color-fut: #ffffff;
+  --hover-color: #2196f3;
+  --nav-color: #212121;
+  --contacts-color: #757575;
+  --hero-bg-color: #2f303a;
+  --light-color: #ffffff;
+  --button-color: #2196f3;
+  --spec-content-color: #757575;
+  --team-content-color: #f5f4fa;
+  --footer-color: ##2f303a;
+  --cont-foot-color: #ffffff99;
+  --button-filters-color: #f5f4fa;
+  --portfolio-content-color: #757575;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #212121;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+}
+
+.Effective_solutions {
+  background-color: #2f303a;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.hover_color:hover,
+.hover_color:focus {
+  color: #2196f3;
+}
+
+.button-color {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-portfolio-color:hover,
+.button-portfolio-color:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-portfolio-color {
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.nav-color {
+  color: #212121;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
