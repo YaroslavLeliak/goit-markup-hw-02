@@ -38,7 +38,7 @@ body {
   background-color: var(--main-background-color);
 }
 
-.list-head, .list, .list-footer, .list-head-contacts, .list_footer_map, .list_footer {
+.list-head, .list, .list-footer, .list-head-contacts, .list_footer_map, .list_footer, .port_list {
   list-style: none;
 }
 
