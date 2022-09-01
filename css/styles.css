@@ -51,7 +51,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--brand-color-left);
 }
 
@@ -68,7 +67,6 @@ body {
 
 .brand_right {
   color: var(--brand-color-right);
-  color: var(--text-color);
 }
 
 .brand_right_footer {
@@ -81,7 +79,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--head-color);
 }
 
@@ -103,11 +100,9 @@ color: var(--hover-color)}
 
 .list-head-contacts {
   list-style: none;
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--contacts-color);
 }
 
@@ -122,10 +117,6 @@ color: var(--hover-color)}
 .eff_sol {
   background-color: var(--bg-color);
   text-align: center;
-  width: 800px;
-  height: 200px;
-  left: 0px;
-  top: 80px;
 }
 
 .eff_sol_h {
@@ -134,11 +125,11 @@ color: var(--hover-color)}
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .button-color {
+  font-family: inherit;
   color: var(--main-background-color);
   background-color: var(--button-color);
   cursor: pointer;
@@ -146,7 +137,6 @@ color: var(--hover-color)}
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.06em;
   color: var(--text-head);
 }
 
@@ -175,13 +165,11 @@ color: var(--hover-color)}
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--head-color);
 }
 
 .str_txt {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -195,7 +183,6 @@ color: var(--hover-color)}
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--head-color);
 }
 
@@ -215,7 +202,6 @@ color: var(--hover-color)}
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--head-color);
 }
 
@@ -224,16 +210,13 @@ color: var(--hover-color)}
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--head-color);
 }
 
 .team-txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -248,41 +231,38 @@ color: var(--hover-color)}
   list-style: none;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
-.nav-link-footer a {
+.nav-link-footer a{
   text-decoration: none;
-  list-style: none;
-  font-style: none;
   color: var(--text-head);
 }
 
 .adress {
-  text-decoration: none;
-  list-style: none;
+  font-style: normal;
 }
 
 .list_footer_map {
-  text-decoration: none;
   list-style: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--text-head);
 }
 
-.list_footer a {
+.list_footer {
   text-decoration: none;
   list-style: none;
   font-style: none;
-  font-weight: 400;
+  
+}
+
+.list_footer a{
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+
 
 /**
   |============================
@@ -294,17 +274,21 @@ color: var(--hover-color)}
 .button-portfolio-color:focus {
   color: var(--text-head);
   background-color: var(--button-color);
+ 
+}
+
+.button-portfolio-color {
+  font-family: inherit;
+  text-decoration: none;
+  list-style: none;
+  font-style: none;
+  color: var(--head-color);
+  background-color: var(--button-filters-color);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.button-portfolio-color {
-  color: var(--head-color);
-  background-color: var(--button-filters-color);
-  cursor: pointer;
 }
 
 .port_button,
@@ -317,14 +301,11 @@ color: var(--hover-color)}
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
   color: var(--head-color);
 }
 
 .port_txt {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
